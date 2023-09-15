@@ -6,7 +6,6 @@ import SendIcon from '@mui/icons-material/Send';
 
 // Card component
 
-
 function Card({title,img, author , summary,date, likes, setLikes, comment, setComment}) {
     
     // to set the visiblity of comments
