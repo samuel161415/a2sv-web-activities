@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const likesSlice = createSlice({
   name: 'likes',
-  initialState: {},
+  initialState: [0,0,0],
   reducers: {
     likeStory: (state, action) => {
       const storyId = action.payload;
